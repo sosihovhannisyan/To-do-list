@@ -1,0 +1,134 @@
+.container {
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+
+.list {
+    padding: 20px;
+    background: #32e6af;
+    color: white;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.list_night {
+    padding: 20px;
+    background: black;
+    color: #32e6af;
+    margin: 30px;
+    border-radius: 50px;
+}
+    .list_night .task {
+        background: #297263ff;
+        color: black;
+    }
+    .list_night .btn {
+        background: #297263ff;
+        color: black;
+    }
+    .list_night div button {
+        background: black;
+        color: #297263ff;
+    }
+        .list_night div button:hover {
+            background: #32e6af;
+            color: black;
+        }
+
+.title, .loading {
+        color: #32e6af;
+    }
+
+.title_night, .loading_night {
+    color: black;
+}
+
+.add {
+    border: none;
+    border-radius: 50px;
+    padding: 7px 22px;
+    background: #32e6af;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
+    .add:hover {
+        background: #297263ff;
+        color: #32e6af;
+    }
+
+.add_night {
+    border: none;
+    border-radius: 50px;
+    padding: 7px 22px;
+    text-decoration: none;
+    background: black;
+    color: #297263ff;
+}
+
+    .add_night:hover {
+        background: #32e6af;
+        color: black;
+    }
+
+.btn {
+    border: none;
+    padding: 7px 22px;
+    margin: 10px;
+    background: #b9ffe7;
+    border-radius: 50px 0px;
+}
+.btn:hover {
+    background: #297263ff;
+    color: #32e6af;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.task {
+    color: #3ea480;
+    background: #b9ffe7;
+    margin: 18px;
+    padding: 6px 15px;
+    border-radius: 50px 0px;
+}
+
+    .task button {
+        border: none;
+        padding: 7px 22px;
+        margin: 10px;
+        background: white;
+        border-radius: 50px;
+    }
+
+.task button:hover {
+    background: #297263ff;
+    color: #32e6af;
+}
+
+.completed {
+    color: #3ea480;
+    background: #297263ff;
+    margin: 18px;
+    padding: 6px 15px;
+    border-radius: 50px 0px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+    .completed button {
+        border: none;
+        padding: 7px 22px;
+        margin: 10px;
+        background: white;
+        border-radius: 50px;
+    }
+
+        .completed button:hover {
+            background: black;
+            color: #32e6af;
+        }

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\AddItem",
+    "\\src\\components\\EditItem",
+    "\\src\\components\\ItemList"
+  ],
+  "SelectedNode": "\\src\\components\\AddItem\\style.module.css",
+  "PreviewInSolutionExplorer": false
+}
